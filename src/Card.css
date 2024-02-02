@@ -1,0 +1,42 @@
+.col1 {
+  max-width: 400px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+
+
+.col1>p {
+  text-align: justify;
+}
+
+.col1>button {
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(100, 167, 0);
+
+  color: white;
+  font-size: 20px;
+}
+
+.col1>button>a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.col1>button:hover {
+  scale: 1.1;
+  transition: ease-out 0.5s;
+  background-color: orange;
+  color: black;
+  cursor: pointer;
+}
+
+@media(max-width:400px) {
+  .col1 {
+    width: 100%;
+  }
+}
